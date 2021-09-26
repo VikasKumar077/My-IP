@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Founder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <p id="heading">Free IP Address & Geolocation Lookup Tool</p>
+
+    <div class="container">
+      <div class="left">
+        <div class="head">
+          <div class="text">Your IP Address</div>
+          <div class="ip-address">
+            <span id="ipAddress">fetching data...</span>
+          </div>
+        </div>
+
+        <div class="all-data">
+          <table>
+            <tr>
+              <td>ISP:</td>
+              <td id="ISPname">loading...</td>
+            </tr>
+            <tr>
+              <td>City:</td>
+              <td id="CITYname">loading...</td>
+            </tr>
+            <tr>
+              <td>Region:</td>
+              <td id="REGIONname">loading...</td>
+            </tr>
+            <tr>
+              <td>Country:</td>
+              <td id="COUNTRYname">loading...</td>
+            </tr>
+            <tr>
+              <td>Country Code:</td>
+              <td id="COUNTRYcode">loading...</td>
+            </tr>
+
+            <tr>
+              <td>Timezone:</td>
+              <td id="TIMEZONE">loading...</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="right">
+        <div class="text2">
+          <h2>IP LOOKUP</h2>
+        </div>
+
+        <div class="input">
+          <input type="text" placeholder="Enter Other IP Address" id="EnteredIp" /><br />
+          <button id="lookupBtn">LOOKUP</button>
+          <div id="warning">
+                <h3>NO DATA FOUND!</h3>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ip-lookup section -->
+
+    <div class="ip-lookup">
+      <div id="container2">
+        <div class="head2">
+          <div class="text3">Entered IP Address</div>
+          <div class="entered-ip-address">
+            <span id="ipAddress2"></span>
+          </div>
+        </div>
+
+          
+        <div id="all-data2">
+
+          
+          <table>
+
+            <tr>
+              <td>Version:</td>
+              <td id="Version">loading...</td>
+            </tr>
+            <tr>
+              <td>ISP:</td>
+              <td id="ISPname2">loading...</td>
+            </tr>
+            <tr>
+              <td>City:</td>
+              <td id="CITYname2">loading...</td>
+            </tr>
+            <tr>
+              <td>Region:</td>
+              <td id="REGIONname2">loading...</td>
+            </tr>
+            <tr>
+              <td>Country:</td>
+              <td id="COUNTRYname2">loading...</td>
+            </tr>
+                        <tr>
+              <td>Country Capital:</td>
+              <td id="COUNTRYcapital">loading...</td>
+            </tr>
+            <tr>
+              <td>Country Code:</td>
+              <td id="COUNTRYcode2">loading...</td>
+            </tr>
+
+            <tr>
+              <td>Timezone:</td>
+              <td id="TIMEZONE2">loading...</td>
+            </tr>
+
+
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
